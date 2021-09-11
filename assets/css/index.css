@@ -120,6 +120,11 @@ body {
 }
 
 
+
+
+
+
+
 .feedback__arrows {
   position: absolute;
   right: 0;
@@ -343,11 +348,6 @@ body {
   grid-gap: 45px;
 }
 
-.gallery__wrapper {
-  width: 340px;
-  height: 432px;
-}
-
 .gallery__img-1 {
   background-image: url("./../images/room1.png");
 }
@@ -372,8 +372,11 @@ body {
   background-image: url("./../images/room6.png");
 }
 
+
 .gallery__wrapper {
   position: relative;
+  width: 340px;
+  height: 432px;
 }
 
 .gallery__wrapper:hover {
