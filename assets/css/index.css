@@ -36,45 +36,15 @@ body {
 
 
 
-/* Слайдер */
-.slick-slider{}
-/* Слайдер запущен */
-.slick-slider.slick-initialized{}
-/* Слайдер с точками */
-.slick-slider.slick-dotted{}
-/* Ограничивающая оболочка */
+/* slider */
+
 .slick-list {
   overflow: hidden;
 }
-/* Лента слайдов */
+
 .slick-track{
   display: flex;
 }
-/* Слайд */
-.slick-slide{}
-/* Слайд активный (показывается) */
-.slick-slide.slick-active{}
-/* Слайд основной */
-.slick-slide.slick-current{}
-/* Слайд по центру */
-.slick-slide.slick-center{}
-/* Клонированный слайд */
-.slick-slide.slick-cloned{}
-/* Стрелка */
-.slick-arrow{}
-/* Стрелка влево */
-.slick-arrow.slick-prev{}
-/* Стрелка вправо */
-.slick-arrow.slick-next{}
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{}
-/* Точки (булиты) */
-.slick-dots{}
-.slick-dots li{}
-/* Активная точка */
-.slick-dots li.slick-active{}
-/* Элемент точки */
-.slick-dots li button{}
 
 .slider {
   position: relative;
@@ -100,28 +70,17 @@ body {
   border: 1px solid black;
 }
 
-
-
 .slider .slick-arrow.slick-prev{
   content: " ";
   right: 60px;
   background: url("./../images/arrow-prev.svg") no-repeat center;
 }
 
-
 .slider .slick-arrow.slick-next{
   content: " ";
   right: 0;
   background: url("./../images/arrow-next.svg") no-repeat center;
 }
-
-.slider__item {
-
-}
-
-
-
-
 
 
 
@@ -371,6 +330,15 @@ body {
 .gallery__img-6 {
   background-image: url("./../images/room6.png");
 }
+
+/* start magnific-popup */
+
+img.mfp-img {
+  width: 120%;
+  max-width: inherit;
+}
+
+/* end magnific-popup */
 
 
 .gallery__wrapper {
