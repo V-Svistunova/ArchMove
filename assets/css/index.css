@@ -334,7 +334,7 @@ body {
 /* start magnific-popup */
 
 img.mfp-img {
-  width: 120%;
+  height: 640px;
   max-width: inherit;
 }
 
