@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "NewYorkExtraLargeBold"; 
+  src: url('NewYorkExtraLargeBold.otf') format("truetype");
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Bold"; 
+  src: url('SFUIDisplay-Bold.woff') format("woff"); 
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Light"; 
+  src: url('SFUIDisplay-Light.woff') format("woff");
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Regular"; 
+  src: url('SFUIDisplay-Regular.woff') format("woff");
+}
+
+@font-face {
+  font-family: "SFUIDisplay-Semibold";
+  src: url('SFUIDisplay-Semibold.woff') format("woff");
+}

@@ -1,27 +1,6 @@
-@font-face {
-  font-family: "NewYorkExtraLargeBold"; 
-  src: url(./../fonts/NewYorkExtraLargeBold.otf) format("truetype");
-}
+/*  Theme Name: Arch Move  */
 
-@font-face {
-  font-family: "SFUIDisplay-Bold"; 
-  src: url(./../fonts/SFUIDisplay-Bold.woff) format("woff"); 
-}
 
-@font-face {
-  font-family: "SFUIDisplay-Light"; 
-  src: url(./../fonts/SFUIDisplay-Light.woff) format("woff");
-}
-
-@font-face {
-  font-family: "SFUIDisplay-Regular"; 
-  src: url(./../fonts/SFUIDisplay-Regular.woff) format("woff");
-}
-
-@font-face {
-  font-family: "SFUIDisplay-Semibold";
-  src: url(./../fonts/SFUIDisplay-Semibold.woff) format("woff");
-}
 
 * {
   padding: 0;
@@ -73,13 +52,13 @@ body {
 .slider .slick-arrow.slick-prev{
   content: " ";
   right: 60px;
-  background: url("./../images/arrow-prev.svg") no-repeat center;
+  background: url("assets/images/arrow-prev.svg") no-repeat center;
 }
 
 .slider .slick-arrow.slick-next{
   content: " ";
   right: 0;
-  background: url("./../images/arrow-next.svg") no-repeat center;
+  background: url("assets/images/arrow-next.svg") no-repeat center;
 }
 
 
@@ -111,11 +90,11 @@ body {
 }
 
 .feedback__arrow--left {
-  background: url("./../images/arrow-prev.svg") no-repeat center;
+  background: url("assets/images/arrow-prev.svg") no-repeat center;
 }
 
 .feedback__arrow--right {
-  background: url("./../images/arrow-next.svg") no-repeat center;
+  background: url("assets/images/arrow-next.svg") no-repeat center;
 }
 
 
@@ -143,6 +122,10 @@ body {
   text-decoration: none;
 }
 
+.nav__link:hover {
+  color: #FD665E;
+}
+
 
 .btn {
   font-weight: 600;
@@ -168,7 +151,7 @@ body {
 .logo {
   width: 61px;
   height: 30px;
-  background: url("./../images/logo-arch.png") no-repeat center;
+  background: url("assets/images/logo-arch.png") no-repeat center;
 }
 
 .title {
@@ -213,7 +196,7 @@ body {
   height: 14px;
   margin: 10px;
   border: transparent;
-  background: url("./../images/search-grey.png") no-repeat center;
+  background: url("assets/images/search-grey.png") no-repeat center;
 }
 
 .header__sing-in {
@@ -288,7 +271,7 @@ body {
   height: 100vmax;
   max-width: 765px;
   max-height: 480px;
-  background: url("./../images/main.png") no-repeat center;
+  background: url("assets/images/main.png") no-repeat center;
 }
 
 
@@ -308,27 +291,27 @@ body {
 }
 
 .gallery__img-1 {
-  background-image: url("./../images/room1.png");
+  background-image: url("assets/images/room1.png");
 }
 
 .gallery__img-2 {
-  background-image: url("./../images/room2.png");
+  background-image: url("assets/images/room2.png");
 }
 
 .gallery__img-3 {
-  background-image: url("./../images/room3.png");
+  background-image: url("assets/images/room3.png");
 }
 
 .gallery__img-4 {
-  background-image: url("./../images/room4.png");
+  background-image: url("assets/images/room4.png");
 }
 
 .gallery__img-5 {
-  background-image: url("./../images/room5.png");
+  background-image: url("assets/images/room5.png");
 }
 
 .gallery__img-6 {
-  background-image: url("./../images/room6.png");
+  background-image: url("assets/images/room6.png");
 }
 
 /* start magnific-popup */
@@ -359,7 +342,7 @@ img.mfp-img {
   height: 24px;
   top: 50%;
   left: 50%;
-  background-image: url("./../images/search-white.png");
+  background-image: url("assets/images/search-white.png");
   transform: translate(-50%);
   -webkit-transform: translate(-50%);
   -moz-transform: translate(-50%);
@@ -382,7 +365,7 @@ img.mfp-img {
 .about__img {
   width: 535px;
   height: 610px;
-  background: url("./../images/about.png") no-repeat center;
+  background: url("assets/images/about.png") no-repeat center;
 }
 
 
@@ -405,15 +388,15 @@ img.mfp-img {
 }
 
 .about__marker-1 {
-  background: url("./../images/about-marker1.png") no-repeat center;
+  background: url("assets/images/about-marker1.png") no-repeat center;
 }
 
 .about__marker-2 {
-  background: url("./../images/about-marker2.png") no-repeat center;
+  background: url("assets/images/about-marker2.png") no-repeat center;
 }
 
 .about__marker-3 {
-  background: url("./../images/about-marker3.png") no-repeat center;
+  background: url("assets/images/about-marker3.png") no-repeat center;
 }
 
 .about__items {
@@ -466,7 +449,7 @@ img.mfp-img {
   content: "";
   width: 57px;
   height: 40px;
-  background: url("./../images/maks.svg");
+  background: url("assets/images/maks.svg");
 }
 
 .feedback__text {
@@ -503,7 +486,7 @@ img.mfp-img {
 .realize__img {
   width: 500px;
   height: 685px;
-  background: url("./../images/realize.png") no-repeat left;
+  background: url("assets/images/realize.png") no-repeat left;
 }
 
 .realize__block {

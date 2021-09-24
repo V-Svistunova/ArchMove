@@ -1,43 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./assets/css/normalize.css">
-  <link rel="stylesheet" href="./assets/libs/magnific-popup/magnific-popup.css">
-  
-  <link rel="stylesheet" href="./assets/css/index.css">
-  <title>ArchMove</title>
-</head>
-<body>
-
-  <header class="header">
-    <div class="header__logo logo"></div>
-    <div class="header__wrapper">
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a class="nav__link" href="#!">Design Gallery</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#!">List of Architect</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#!">Articles</a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link" href="#!">How it Works</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header__btns">
-        <button class="header__search"></button>
-        <button class="header__sing-in">Sign In</button>
-      </div>      
-    </div>
-    <button class="header__sing-up btn">Sign Up</button>
-  </header>
+<?php get_header(); ?>
 
   <main class="main">
     <div class="container">
@@ -60,22 +21,22 @@
     <div class="container">
       <h2 class="gallery__title title">Build professional valuable room for you</h2>
       <div class="gallery__box popup-gallery">        
-        <a href="./assets/images/room1.png" class="gallery__img gallery__img-1 image-link" title="design 1">
+        <a href="<?php echo IMG_DIR; ?>/room1.png" class="gallery__img gallery__img-1 image-link" title="design 1">
           <div class="gallery__wrapper"></div>
         </a>
-        <a href="./assets/images/room2.png" class="gallery__img gallery__img-2 image-link" title="design 2">
+        <a href="<?php echo IMG_DIR; ?>/room2.png" class="gallery__img gallery__img-2 image-link" title="design 2">
           <div class="gallery__wrapper"></div>
         </a>
-        <a href="./assets/images/room3.png" class="gallery__img gallery__img-3 image-link" title="design 3">
+        <a href="<?php echo IMG_DIR; ?>/room3.png" class="gallery__img gallery__img-3 image-link" title="design 3">
           <div class="gallery__wrapper"></div>
         </a>
-        <a href="./assets/images/room4.png" class="gallery__img gallery__img-4 image-link" title="design 4">
+        <a href="<?php echo IMG_DIR; ?>/room4.png" class="gallery__img gallery__img-4 image-link" title="design 4">
           <div class="gallery__wrapper"></div>
         </a>
-        <a href="./assets/images/room5.png" class="gallery__img gallery__img-5 image-link" title="design 5">
+        <a href="<?php echo IMG_DIR; ?>/room5.png" class="gallery__img gallery__img-5 image-link" title="design 5">
           <div class="gallery__wrapper"></div>
         </a>
-        <a href="./assets/images/room6.png" class="gallery__img gallery__img-6 image-link" title="design 6">
+        <a href="<?php echo IMG_DIR; ?>/room6.png" class="gallery__img gallery__img-6 image-link" title="design 6">
           <div class="gallery__wrapper"></div>
         </a>
       </div>
@@ -186,48 +147,13 @@
     <div class="container">
       <h2 class="partners__title title">Our Partners</h2>
       <div class="partners__box">
-        <img class="partners__img" src="./assets/images/logo-1.png" alt="partner">
-        <img class="partners__img" src="./assets/images/logo-2.png" alt="partner">
-        <img class="partners__img" src="./assets/images/logo-3.png" alt="partner">
-        <img class="partners__img" src="./assets/images/logo-4.png" alt="partner">
-        <img class="partners__img" src="./assets/images/logo-5.png" alt="partner">
+        <img class="partners__img" src="<?php echo IMG_DIR; ?>/logo-1.png" alt="partner">
+        <img class="partners__img" src="<?php echo IMG_DIR; ?>/logo-2.png" alt="partner">
+        <img class="partners__img" src="<?php echo IMG_DIR; ?>/logo-3.png" alt="partner">
+        <img class="partners__img" src="<?php echo IMG_DIR; ?>/logo-4.png" alt="partner">
+        <img class="partners__img" src="<?php echo IMG_DIR; ?>/logo-5.png" alt="partner">
       </div>
     </div>
   </section>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__box">
-        <nav class="nav">
-          <ul class="nav__list">
-            <li class="nav__item">
-              <a class="nav__link" href="#!">About Us</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#!">How it Works</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#!">FAQ</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#!">Contact Us</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#!">Privacy Policy</a>
-            </li>
-          </ul>
-        </nav>
-        <div class="footer__logo logo"></div>
-      </div>
-    </div>
-  </footer>
-
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="./assets/libs/magnific-popup/jquery.magnific-popup.min.js"></script>
-  <script src="./assets/libs/slick/slick.min.js"></script>
-  
-
-<script src="./assets/js/index.js"></script>
-</body>
-</html>
+  <?php get_footer(); ?>
