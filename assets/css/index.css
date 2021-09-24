@@ -143,6 +143,10 @@ body {
   text-decoration: none;
 }
 
+.nav__link:hover {
+  color: #FD665E;
+}
+
 
 .btn {
   font-weight: 600;
